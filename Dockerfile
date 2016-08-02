@@ -16,7 +16,8 @@ RUN sudo apt-get update && \
     && tar xzf v0.0.2.tar.gz \
     && rm v0.0.2.tar.gz \
     && cd jupyter-gap-0.0.2 \
-    && sudo sh install.sh
+    && sudo sh install.sh \
+    && chown -R gap:gap /home/gap/.local
 
 # Set up new user and home directory in environment.
 # Note that WORKDIR will not expand environment variables in docker versions < 1.3.1.
