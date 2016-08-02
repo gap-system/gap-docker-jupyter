@@ -13,7 +13,7 @@ docker pull gapsystem/gap-docker-jupyter
 new GAP release). After that, you can start the GAP container by typing the
 following in a terminal:
 ```
-sudo docker run -p 8888:8888 -i -t gapsystem/gap-docker-jupyter
+docker run -p 8888:8888 -i -t gapsystem/gap-docker-jupyter
 ```
 Note that you may have to run `docker` with `sudo`, particularly if you are on Ubuntu.
 
