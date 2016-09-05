@@ -12,10 +12,10 @@ RUN sudo apt-get update && \
     libfreetype6-dev libpng-dev libjpeg-dev zlib1g-dev \
     && sudo pip3 install jupyter \
     && cd /home/gap \
-    && wget -q https://github.com/gap-packages/jupyter-gap/archive/v0.4.tar.gz \
-    && tar xzf v0.4.tar.gz \
-    && rm v0.4.tar.gz \
-    && cd jupyter-gap-0.4 \
+    && wget -q https://github.com/gap-packages/jupyter-gap/archive/v0.6.tar.gz \
+    && tar xzf v0.6.tar.gz \
+    && rm v0.6.tar.gz \
+    && cd jupyter-gap-0.6 \
     && sudo python3 setup.py install \
     && sudo chown -R gap:gap /home/gap/.local
 
