@@ -12,10 +12,10 @@ RUN sudo apt-get update && \
     libfreetype6-dev libpng-dev libjpeg-dev zlib1g-dev \
     && sudo pip3 install jupyter \
     && cd /home/gap \
-    && wget -q https://github.com/gap-packages/jupyter-gap/archive/v0.7.tar.gz \
-    && tar xzf v0.7.tar.gz \
-    && rm v0.7.tar.gz \
-    && cd jupyter-gap-0.7 \
+    && wget -q https://github.com/gap-packages/jupyter-gap/archive/v0.9.tar.gz \
+    && tar xzf v0.9.tar.gz \
+    && rm v0.9.tar.gz \
+    && cd jupyter-gap-0.9 \
     && sudo python3 setup.py install
 
 # Set up new user and home directory in environment.
