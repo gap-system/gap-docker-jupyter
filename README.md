@@ -1,7 +1,7 @@
 # Docker container for the GAP Jupyter interface
 
 This Docker container is built on top of the Docker container for GAP and
-packages located at https://hub.docker.com/r/gapsystem/gap-docker/ and 
+packages located at https://hub.docker.com/r/gapsystem/gap-docker/. It
 allows to use GAP via the experimental GAP Jupyter interface that is 
 being developed at https://github.com/gap-packages/jupyter-gap.
 
