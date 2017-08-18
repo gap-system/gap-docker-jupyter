@@ -23,10 +23,8 @@ Note that you may have to run `docker` with `sudo`, particularly if you are on U
 When the container will be started, it will display further instructions
 with the link to open in the browser on the host machine. Please note that
 on Windows and OS X you will have to replace 0.0.0.0 in http://0.0.0.0:8888/ 
-by the IP address of the virtual machine, which you will see after starting
-Docker (this is tested with Docker Toolbox only, but not with the latest 
-Docker for Windows requiring Windows 10 and Docker for Mac requiring OS X 
-Yosemite).
+by the IP address of the virtual machine (see the documentation for your
+version of Docker on how to determine the IP address).
 
 Note that this container contains a fully functional GAP installation that
 can be also run from a command line. For further instructions and command
