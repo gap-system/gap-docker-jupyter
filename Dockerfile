@@ -10,6 +10,7 @@ RUN sudo apt-get update && \
     python3 python3-dev \
     python3-pip python3-setuptools \
     libfreetype6-dev libpng-dev libjpeg-dev zlib1g-dev \
+    && sudo pip3 install --upgrade setuptools pip \
     && sudo pip3 install jupyter \
     && cd /home/gap \
     && wget -q https://github.com/gap-packages/jupyter-gap/archive/v0.9.tar.gz \
